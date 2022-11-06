@@ -1,11 +1,10 @@
-public class AnimationSamplePackage {
-    public init() {}
-   
-    public private(set) var text = "Hello, World!"
+import UIKit
 
-    public func getPackageName() -> String {
-        "AnimationSamplePackage"
-    }
+public final class AnimationSamplePackage {
     
+    public static func getComparisonVC() -> ComparisonTabbarVC {
+        let vc = ComparisonTabbarVC()
+        return vc
+    }
 
 }
